@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Source-Sans-Pro;
+  src: url(./SourceSansPro-Regular.otf);
+}
+
+body {
+  background: url("./images/background.png");
+  background-size: contain;
+  background-position-y: 0lvh;
+  background-repeat: no-repeat;
+  font-family: Source-Sans-Pro;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex: 50%;
+  justify-content: space-around;
+}
+
+nav img {
+  height: 40px;
+  margin-top: 7px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 50px 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.tutors {
+  display: flex;
+}
